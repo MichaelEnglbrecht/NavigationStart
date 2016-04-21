@@ -1,0 +1,15 @@
+<mvc:View controllerName="sap.training.navigation1.controller.Main" 
+		xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Link id="navLink" text="Start navigation"/>
+					<Button press="onPress" text="Start navigation"/>
+					<Link text="SE80" href="/sap/bc/gui/sap/its/webgui?~TRANSACTION=SU01"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
